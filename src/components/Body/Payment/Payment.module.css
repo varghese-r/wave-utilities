@@ -1,0 +1,61 @@
+.paymentElement {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.paymentElement h3 {
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.formContainer {
+    height: 9rem;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3.3rem;
+}
+
+.formContainer button {
+    width: 20%;
+    font-size: 1.2rem;
+    color: #0C4361;
+    background-color: white;
+    border: 2px solid #0C4361;
+    margin-left: 15px;
+}
+
+.formContainer button:hover {
+    cursor: pointer;
+}
+
+.formContainer input {
+    width: 50%;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.customAmountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1550px) {
+    .customAmountContainer {
+        width: 60vw;
+    }
+
+    .formContainer {
+        width: 90%;
+    }
+}

@@ -1,0 +1,41 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 1.2rem;
+    background: white;
+    width: 50%;
+    padding: 2.5rem 4.5rem;
+}
+
+.form__container button {
+    align-self: center;
+    padding: 0.8rem 2rem;
+    background: #0B4361;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.form__container button:hover {
+    cursor: pointer;
+}
+
+.field__section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.field__section input {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1550px) {
+    .form__container {
+        width: 75%;
+    }
+}

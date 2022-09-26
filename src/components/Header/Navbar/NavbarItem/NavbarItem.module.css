@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.navbarItem__first {
+    height: 3rem;
+    width: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6ECF0;
+    margin: 0 0.3rem;
+    text-decoration: none;
+}

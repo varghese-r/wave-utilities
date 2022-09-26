@@ -1,0 +1,25 @@
+.navbar__container {
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1550px) {
+    .navbar__container {
+        width: 55vw;
+    }
+
+    .navbar {
+        width: 40vw;
+    }
+}
+

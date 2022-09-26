@@ -1,0 +1,24 @@
+.confirmationContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmationMessage {
+    width: 50vw;
+    height: 5rem;
+    border: 1px solid darkcyan;
+    background-color: rgba(144, 238, 144, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+.confirmationMessage span {
+    font-size: 3.5rem;
+}

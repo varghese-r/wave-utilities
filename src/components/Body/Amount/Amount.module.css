@@ -1,0 +1,46 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > h3 {
+    font-weight: lighter;
+}
+
+.scenarios {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    justify-content: space-around;
+    padding: 2rem 10rem;
+    margin-top: 2rem;
+}
+
+.scenarios button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(58, 58, 221);
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px lightgoldenrodyellow;
+}
+
+.scenarios button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1550px) {
+    .scenarios {
+        width: 50vw;
+    }
+
+    .scenarios button {
+        margin-bottom: 1.5rem;
+    }
+}
